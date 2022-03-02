@@ -1,6 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-export default function NavBar() {
+export default function NavBar({ currentPage, handlePageChange }) {
+  `return (
+    <ul className="nav nav-tabs">
+  )
+
+}
  
   return <nav>
     <ul>
@@ -10,6 +15,6 @@ export default function NavBar() {
       <li>Resume</li>
     </ul>
    
-  </nav>;
+  </nav>`
 }
 
