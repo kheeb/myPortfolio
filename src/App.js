@@ -1,14 +1,5 @@
 import './App.css';
 import NavBar from './components/NavBar';
-
-function App() {
-  return <>
-  <header>
-    <h1>Kara Heeb</h1>
-    <NavBar />
-    </header>
-    <footer></footer>
-  </>
-}
-
-export default App;
+import Portfolio from './components/Portfolio/Portfolio';
+import AboutMe from './components/AboutMe/AboutMe';
+import Contact from './components/Resume/Resume';
